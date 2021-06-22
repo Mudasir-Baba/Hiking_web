@@ -37,10 +37,15 @@ a{
     color:rgb(36, 116, 116)
    
 }
-.contactbutton{opacity:50%}
+.contactbutton{
+    opacity:50%
+    
+    
+}
 .contactbutton:hover{
     color: black;
     opacity:100%;
+    
     
     
 }
@@ -54,4 +59,9 @@ a{
 .main:hover{
     opacity: 100%;
     color: rgb(13, 58, 31)
+}
+.contactbtn:hover{
+    border-style: solid;
+    
+    background-color: transparent;
 }

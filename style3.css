@@ -40,3 +40,21 @@ a{
     
     
 }
+
+.main{
+    display:flex;
+    justify-content: space-evenly;
+     
+}
+.logos{
+    display: flex;
+    margin-top: 500px;
+    justify-content: center ;
+    align-items:center;
+
+    
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
