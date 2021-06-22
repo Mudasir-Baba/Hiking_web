@@ -1,10 +1,15 @@
+body{
+    background-image: url("images/contactswallpaper.jpg");
+    background-size: contain;
+}
 a{
     text-decoration: none;
-    color: grey
+    color: rgb(31, 29, 29)
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    
     
     
 
@@ -43,18 +48,56 @@ a{
 
 .main{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    white-space: nowrap;
+    text-decoration-thickness: 10px;
      
 }
 .logos{
     display: flex;
     margin-top: 500px;
     justify-content: center ;
+    justify-content: space-evenly;
     align-items:center;
+    
 
     
 }
 img{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+.twitter,.instagram,.reddit{
+    height: 62px;
+    border-radius: 80%;
+    background-color: white;
+}
+.github{
+    border-radius: 60%;
+    height:48px;
+    background-color: white;
+}
+.github:hover{
+    background-color: rgb(69, 62, 109);
+
+}
+.twitter:hover{
+    background-color: rgb(71, 161, 247);
+    
+}
+
+.reddit:hover{background-color: rgb(255, 69, 0);}
+.instagram:hover{
+    background-image: linear-gradient(red,purple,blue);
+}
+.main{
+    padding-top: 100px;
+    font-size: 25px;
+}
+.email{
+    height: 100px;
+    width: 100px;
+}
+.email{
+    background-size: contain;
 }
